@@ -1,0 +1,9 @@
+{
+  "usingComponents": {},
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "二手物品",
+  "navigationBarBackgroundColor": "#A43237",
+  "backgroundColor": "#A43237",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark"
+}

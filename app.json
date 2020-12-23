@@ -1,0 +1,82 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/system/user",
+    "pages/system/about",
+    "pages/system/lianx",
+    "pages/userInfo/userInfo_add",
+    "pages/userInfo/userInfo_detail",
+    "pages/userInfo/userInfo_list",
+    "pages/userInfo/userInfo_modify",
+    "pages/productClass/productClass_add",
+    "pages/productClass/productClass_detail",
+    "pages/productClass/productClass_list",
+    "pages/productClass/productClass_modify",
+    "pages/productInfo/productInfo_add",
+    "pages/productInfo/productInfo_detail",
+    "pages/productInfo/productInfo_list",
+    "pages/productInfo/productInfo_modify",
+    "pages/priceRegion/priceRegion_add",
+    "pages/priceRegion/priceRegion_detail",
+    "pages/priceRegion/priceRegion_list",
+    "pages/priceRegion/priceRegion_modify",
+    "pages/newOldLevel/newOldLevel_add",
+    "pages/newOldLevel/newOldLevel_detail",
+    "pages/newOldLevel/newOldLevel_list",
+    "pages/newOldLevel/newOldLevel_modify",
+    "pages/areaInfo/areaInfo_add",
+    "pages/areaInfo/areaInfo_detail",
+    "pages/areaInfo/areaInfo_list",
+    "pages/areaInfo/areaInfo_modify",
+    "pages/announce/announce_add",
+    "pages/announce/announce_detail",
+    "pages/announce/announce_list",
+    "pages/announce/announce_modify",
+    "pages/leaveword/leaveword_add",
+    "pages/leaveword/leaveword_detail",
+    "pages/leaveword/leaveword_list",
+    "pages/leaveword/leaveword_modify",
+    "pages/mobile/mobile",
+    "pages/productInfo/productInfo_userlist",
+    "pages/userInfo/userInfo_selfModify"
+  ],
+ "window": {
+  "backgroundColor": "#A43237",
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#A43237",
+  "navigationBarTitleText": "南特师咸鱼",
+  "navigationBarTextStyle": "black"
+},
+"tabBar": {
+  "backgroundColor": "#ffffff",
+  "selectedColor": "#A43237",
+  "list": [
+    {
+      "pagePath": "pages/index/index",
+      "iconPath": "images/icons/shop.png",
+      "selectedIconPath": "images/icons/shopfill.png",
+      "text": "首页"
+    },
+    {
+      "pagePath": "pages/productInfo/productInfo_list",
+      "iconPath": "images/icons/search.png",
+      "selectedIconPath": "images/icons/searchfill.png",
+      "text": "二手物品"
+    },
+    {
+      "pagePath": "pages/productInfo/productInfo_add",
+      "iconPath": "images/icons/add.png",
+      "selectedIconPath": "images/icons/addfill.png",
+      "text": "发布"
+    },
+    {
+      "pagePath": "pages/system/user",
+      "iconPath": "images/icons/people.png",
+      "selectedIconPath": "images/icons/peoplefill.png",
+      "text": "我的"
+    }
+  ]
+},
+"sitemapLocation": "sitemap.json"
+}
